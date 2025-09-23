@@ -1,6 +1,6 @@
-# Habilidades Generales en CTFs
+# General Skills in CTFs
 
-Esta carpeta contiene mis notas y soluciones de desafíos relacionados con **habilidades generales** aplicables a diferentes tipos de CTFs. Aquí documento técnicas y conceptos fundamentales que se utilizan en múltiples categorías, como:  
+Esta carpeta contiene mis notas y soluciones de desafíos relacionados con **General Skills** aplicables a diferentes tipos de CTFs. Aquí documento técnicas y conceptos fundamentales que se utilizan en múltiples categorías, como:  
 
 - Reconocimiento básico  
 - Comandos y navegación en Linux/Windows  
@@ -27,3 +27,8 @@ Para cada desafío incluiré:
 - Consolidar **habilidades transversales** que se aplican a distintos tipos de CTFs.  
 - Tener un **referente rápido** de técnicas básicas y soluciones que pueda consultar mientras avanzo en otros desafíos.  
 - Documentar mi **progreso y aprendizaje paso a paso**.
+
+## **Nota sobre flags**
+
+- ⚠️ Las **flags no están incluidas** en esta documentación.  
+- Solo describo el proceso y las herramientas utilizadas para resolver cada reto.

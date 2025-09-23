@@ -11,4 +11,3 @@ Bienvenido a mi **repositorio de PicoCTF**, donde documento mi proceso de aprend
 - Hacer seguimiento de mi **progreso a lo largo del tiempo** y reforzar el aprendizaje mediante documentación.
 
 
-
