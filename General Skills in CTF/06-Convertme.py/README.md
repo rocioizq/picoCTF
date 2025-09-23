@@ -19,24 +19,23 @@
    ```
 
 2. **Listar archivos del directorio:**
+   Esto me permitió ver los archivos presentes en el directorio.
 
    ```bash
    ls
    ```
 
-   Esto me permitió ver los archivos presentes en el directorio.
 
 3. **Abrir archivo .py:**
+   Esto me permitió visualizar el número decimal que debía convertir.
 
    ```bash
    python3 convertme.py
    ```
-    Esto me permitió visualizar el número decimal que debía convertir.
 
 
 4. **Convertir número decimal a binario para obtener la flag:**
-
-    Utilicé un convertidor online para transformar el número y obtener la bandera en el formato estándar de picoCTF.
+   Utilicé un convertidor online para transformar el número y obtener la bandera en el formato estándar de picoCTF.
 
 5. **Obtener la flag:**  
    Una vez convertido el número decimal a binario, se obtuvo la bandera en el formato estándar de picoCTF.

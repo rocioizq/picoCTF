@@ -18,20 +18,20 @@
    ```
 
 2. **Listar archivos del directorio:**
+   Esto me permitió ver todos los archivos presentes en el directorio.
 
    ```bash
    ls
    ```
 
-   Esto me permitió ver todos los archivos presentes en el directorio.
 
 3. **Identificación del tipo de archivo:**
+   Así determiné que el archivo era de tipo ASCII, y por lo tanto podía leerlo como texto plano.
 
    ```bash
    file flag
    ```
 
-   Así determiné que el archivo era de tipo ASCII, y por lo tanto podía leerlo como texto plano.
 
 4. **Lectura del contenido del archivo:**
 

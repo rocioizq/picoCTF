@@ -18,12 +18,12 @@
    ```
 
 2. **Listar archivos del directorio:**
+   Esto me permitió ver los archivos presentes en el directorio.
 
    ```bash
    ls
    ```
 
-   Esto me permitió ver los archivos presentes en el directorio.
 
 3. **Convertir en ejecutable el archivo:**
 
@@ -32,11 +32,11 @@
    ```
 
 4. **Ejecutar el archivo:**
+   Esto me permitió visualizar la información proporcionada por el programa, útil para resolver el desafío.
 
-    ```bash
-    ./warm
-    ```
-    Esto me permitió visualizar la información proporcionada por el programa, útil para resolver el desafío.
+   ```bash
+   ./warm
+   ```
 
 ## Herramientas Utilizadas
 

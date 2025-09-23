@@ -28,7 +28,7 @@ Para cada desafío incluiré:
 - Tener un **referente rápido** de técnicas básicas y soluciones que pueda consultar mientras avanzo en otros desafíos.  
 - Documentar mi **progreso y aprendizaje paso a paso**.
 
-## **Nota sobre flags**
+## **⚠️ Nota sobre flags**
 
-- ⚠️ Las **flags no están incluidas** en esta documentación.  
+-  Las **flags no están incluidas** en esta documentación.  
 - Solo describo el proceso y las herramientas utilizadas para resolver cada reto.
