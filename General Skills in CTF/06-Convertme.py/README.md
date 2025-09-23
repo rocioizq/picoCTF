@@ -54,6 +54,4 @@
 
 ## Captura de pantalla
 
-<p align="center">
-  <img src="convertme.png" alt="Proceso Convert me" width="600"/><br>
-</p>
+![Captura del reto](convertme.png)

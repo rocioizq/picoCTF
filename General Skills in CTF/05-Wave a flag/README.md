@@ -49,6 +49,4 @@
 
 ## Captura de pantalla
 
-<p align="center">
-  <img src="wave-a-flag.png" alt="Proceso Wave a Flag" width="600"/><br>
-</p>
+![Captura del reto](wave-a-flag.png)
