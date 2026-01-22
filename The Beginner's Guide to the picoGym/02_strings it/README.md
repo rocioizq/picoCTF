@@ -14,8 +14,8 @@
    Utilicé `wget` para bajar el binario a mi espacio de trabajo:
    ```bash
    wget [https://mercury.picoctf.net/static/94d0015d06aa40d33301d5ab603417bc/strings](https://mercury.picoctf.net/static/94d0015d06aa40d33301d5ab603417bc/strings)
+   ```
    Uso del comando strings: Dado que el archivo es un binario, utilicé strings para ver solo las cadenas de texto legibles.
-    ```
 
 2. **Uso del comando strings:**
     Dado que el archivo es un binario, utilicé strings para ver solo las cadenas de texto legibles.
