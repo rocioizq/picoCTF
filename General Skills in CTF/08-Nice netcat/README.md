@@ -20,8 +20,8 @@
 2. **Obtener número decimal:**  
    Una vez establecida la conexión, el programa devolvió una serie de números decimales.
 
-3. **Convertir números a texto**
-    Utilicé CyberChef para convertir los números decimales a ASCII, lo que permitió obtener la bandera en formato picoCTF.
+3. **Convertir números a texto:**
+   Utilicé CyberChef para convertir los números decimales a ASCII, lo que permitió obtener la bandera en formato picoCTF.
 
 ## Herramientas Utilizadas
 
