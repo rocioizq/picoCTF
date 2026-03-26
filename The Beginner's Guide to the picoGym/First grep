@@ -1,0 +1,84 @@
+## **Descripción del Desafío**
+
+**Nombre:** First Grep
+
+**Categoría:** General Skills
+
+**Objetivo:** Encontrar la flag dentro de un archivo utilizando herramientas más eficientes que la búsqueda manual.
+
+**Enunciado:**
+
+Can you find the flag in the file? This would be really tedious to look through manually, something tells me there is a better way.
+
+The flag is in this file.
+
+---
+
+## **Metodología**
+
+### **Descarga y reconocimiento del archivo**
+
+Descargué el archivo proporcionado en la webshell de picoCTF.
+
+Para identificar su tipo, utilicé el comando:
+
+```
+file <nombre_del_archivo>
+```
+
+El resultado indicó que se trataba de un archivo tipo ASCII.
+
+---
+
+### **Inspección manual inicial**
+
+Abrí el archivo usando:
+
+```
+cat <nombre_del_archivo>
+```
+
+Observé que contenía una gran cantidad de texto con datos aparentemente sin estructura clara, lo que hacía inviable encontrar la flag manualmente.
+
+---
+
+### **Búsqueda con grep**
+
+Dado que las flags de picoCTF siguen el formato `picoCTF{}`, utilicé el comando `grep` para filtrar el contenido:
+
+```
+cat <nombre_del_archivo> | grep"picoCTF{"
+```
+
+Esto permitió resaltar en la salida la línea donde se encontraba la flag, facilitando su identificación.
+
+---
+
+### **Optimización del comando**
+
+Aunque el comando anterior funcionó, mostraba toda la línea completa junto con otros datos.
+
+Una mejor forma de obtener **solo la flag** es:
+
+```
+grep -o"picoCTF{.*}" <nombre_del_archivo>
+```
+
+Esto devuelve únicamente la flag sin ruido adicional.
+
+![first_grep.png](attachment:446519e8-5c64-421e-b5bc-a44491cad0af:first_grep.png)
+
+---
+
+## **Herramientas Utilizadas**
+
+- Webshell de picoCTF
+- Comandos de Linux (`file`, `cat`, `grep`)
+
+---
+
+## **Aprendizajes Clave**
+
+- `grep` es una herramienta fundamental para análisis de logs y archivos grandes (muy usado en SOC 👀).
+- Buscar patrones específicos es mucho más eficiente que inspeccionar manualmente.
+- Pequeñas mejoras en comandos (`o`) pueden hacer la salida mucho más limpia y útil.
