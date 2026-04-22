@@ -13,17 +13,17 @@
 1. **Inspección del HTML:**
    Accedí al código fuente del sitio (`Ctrl + U`). Al revisar el archivo principal, encontré la primera parte de la flag en un comentario al final del documento.
    * **Parte 1/3:** 
-   ![Captura del HTML](1.png)
+   ![Captura del HTML](./images/1.png)
 
 2. **Inspección del CSS:**
    Busqué en el HTML la etiqueta `<link>` que llamaba al archivo de estilos. Abrí `mycss.css` y encontré la segunda parte comentada al final del archivo.
    * **Parte 2/3:**
-   ![Captura del CSS](2.png)
+   ![Captura del CSS](./images/2.png)
 
 3. **Inspección del JavaScript:**
    Regresé al código fuente y localicé el archivo de script `myjs.js`. Al abrirlo, encontré la tercera y última parte de la flag.
    * **Parte 3/3:**
-   ![Captura del reto](3.png)
+   ![Captura del reto](./images/3.png)
 
 4. **Construcción de la Flag:**
    Uní las tres partes obtenidas para completar el formato requerido.

@@ -28,7 +28,7 @@
 4. **Flag encontrada:** 
     El comando me devolvió inmediatamente la flag.
 
-![Flag encontrada](1.png)
+![Flag encontrada](./image/1.png)
 
 ## Herramientas Utilizadas
 - Terminal de Linux (Webshell).
